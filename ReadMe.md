@@ -1,10 +1,8 @@
-COMMENTS
---------------------------------
-I will give some dteails about this application.
+# COMMENTS
 
-I spend 3 hours to develop this application.
+I will give some details about this application.
 
-- Unit test coverage %88, I did not write unit test for Main class and Builder class. Becuase normall I used spring or something else to manage IoC container.
+- Unit test coverage %88, I did not write unit test for Main class and Builder class. Becuase normaly I used spring or something else to manage IoC container.
 - The classes which contains business logic has 100% test coverage
 - If you want create a deployable tar.gx package which contains this project then you should use 'mvn package' command.
 - If you want to measure unit test coverage you should use 'mvn cobertura:cobertura' command
@@ -19,17 +17,11 @@ I spend 3 hours to develop this application.
 - You can find the jar file of the project in target folder
 - You can find class diagram in com.akqa.meetingschedular package
 
-USAGE
---------------------------------
+# USAGE
+
 - You can extract tar.gz file
 - You can change source.txt file in conf directory.
 - You can start with files in bin directory
 - You can create different scenarios
 - Result will be printed on console
 
-ASSUMPTIONS
---------------------------------
-I did some assumptions
-
-- I used common io jar.
-- I used commons lang jar.
